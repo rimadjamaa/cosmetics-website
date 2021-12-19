@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cosmetice web site </title>
+    <!-- font awsome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- header section start  -->
+    <header class="header">
+        <a href="#home" class="logo"> <img src="images/logo.png" alt=""></a>
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+            <div><a href="#"><i class="fas fa-heart"></i> </a></div>
+            <div><a href="#"><i class="fas fa-shopping-cart"></i> </a></div>
+        </div>
+    </header>
+    <!-- nav bar section  -->
+    <nav class="navbar">
+        <div id="close-navbar" class="fas fa-times"></div>
+        <a href="#home">home</a>
+        <a href="#shop">shop</a>
+        <a href="#gallery">gallery</a>
+        <a href="#team">team</a>
+        <a href="#arrivals">arrivals</a>
+        <a href="#blogs">blogs</a>
+    </nav>
+    <!-- nav bar section  -->
+
+    <!-- header section ends  -->
+    <!-- home section starts  -->
+       <section class="home" id="home">
+           <div class="slide active">
+               <div class="content">
+                  <img src="images/content-img-1.png" alt="">
+                  <span>New arrivals 2023</span>
+                  <h3>cosmetics</h3>
+                  <a href="#" class="btn">read more</a>
+                  <div class="controls">
+                    <div class="fas fa-angle-left" onclick="perv()"></div>
+                    <div class="fas fa-angle-right" onclick="next()"></div>
+                  </div>
+               </div>
+               <div class="img">
+                   <img src="images/home-img-1.png" alt="">
+               </div>
+           </div>
+           <div class="slide">
+            <div class="content">
+               <img src="images/content-img-2.png" alt="">
+               <span>New arrivals 2023</span>
+               <h3>accessories</h3>
+               <a href="#" class="btn">read more</a>
+               <div class="controls">
+                <div class="fas fa-angle-left" onclick="perv()"></div>
+                <div class="fas fa-angle-right" onclick="next()"></div>
+              </div>
+            </div>
+            <div class="img">
+                <img src="images/home-img-2.png" alt="">
+            </div>
+        </div>
+        <div class="slide">
+            <div class="content">
+               <img src="images/content-img-3.png" alt="">
+               <span>New collections 2023</span>
+               <h3>skin care</h3>
+               <a href="#" class="btn">read more</a>
+               <div class="controls">
+                <div class="fas fa-angle-left" onclick="perv()"></div>
+                <div class="fas fa-angle-right" onclick="next()"></div>
+              </div>
+            </div>
+            <div class="img">
+                <img src="images/home-img-3.png" alt="">
+            </div>
+        </div>
+       </section>
+
+
+
+    <!-- home section ends  -->
+
+
+
+
+    <script src="js/scripte.js"></script>
+</body>
+</html>
